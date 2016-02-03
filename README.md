@@ -1,5 +1,6 @@
 # Vimrc
 > My vim config both on Linux and Windows.
+> 
 > Kallen Ding, Feb 02 2016
 
 ### BundleList 
