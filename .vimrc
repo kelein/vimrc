@@ -4,7 +4,7 @@ set tabstop=4
 set guioptions-=T
 set guioptions-=m
 set smartindent
-
+colorscheme ron
 
 " Add Vundle Configure by Kallen, Jan 25 2016
 filetype off
