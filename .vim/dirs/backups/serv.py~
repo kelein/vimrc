@@ -1,0 +1,67 @@
+#!/usr/bin/env python
+# coding: utf-8
+# Name: serv.py
+# A simple module of salt.
+# Author: Kallen Ding
+# Date: Jan 13 2016
+
+# import os
+import commands
+import socket
+
+stat = {
+   "result": "NONE",
+   "detail": "NONE"
+}
+
+
+def info():
+    cmd = 'uname -a'
+    # sysinfo = os.system(cmd)
+    status, output = commands.getstatusoutput(cmd)
+    # print sysinfo
+    return output
+
+
+def disk():
+    cmd = 'df -h'
+    output = commands.getstatusoutput(cmd)[1]
+    return output
+
+
+def proc(pn):
+    cmd = 'ps -ef | grep ' + pn
+    output = commands.getstatusoutput(cmd)[1]
+    return output
+
+
+def ping(ip):
+    arg = "ping -c 3 %s" % ip
+    return _exec(arg)
+
+
+def hostname():
+    hostname = socket.gethostname()
+    return hostname
+
+
+def chown(user, group, dir):
+    arg = "chown %s:%s %s" % (user, group, dir)
+    return _exec(arg)
+
+
+def _exec(arg):
+    status, output = commands.getstatusoutput(arg)
+    if status:
+        stat['result'] = False
+        stat['detail'] = output
+    else:
+        stat['result'] = True
+        stat['detail'] = output
+    return stat
+
+
+def systime():
+    status, output = commands.getstatusoutput('date')
+    return output
+
