@@ -4,6 +4,7 @@ set tabstop=4
 set guioptions-=T
 set guioptions-=m
 set smartindent
+colorscheme ron
 
 
 " Add Vundle Configure by Kallen, Jan 25 2016
@@ -30,17 +31,23 @@ Bundle 'matchit.zip'
 Bundle 'AutoComplPop'
 Bundle 'jsbeautify'
 Bundle 'YankRing.vim'
-
 Bundle 'Yggdroot/indentLine'
+Bundle 'scrooloose/nerdcommenter'
+
 
 " NerdTree Plugin
 Bundle 'https://github.com/scrooloose/nerdtree.git'
 " Key Bonding of NerdTree
 nmap <F5> :NERDTreeToggle<CR>
 
+
+" TagBar Plugin
+Bundle 'majutsushi/tagbar'
+nmap <F6> :TagbarToggle<CR>
+
+
 " YouCompleteMe Plugin
 Bundle 'https://github.com/Valloric/YouCompleteMe.git'
 
-
 filetype plugin indent on     " required!
-
+autocmd FileType python set omnifunc=pythoncomplete#Complete
