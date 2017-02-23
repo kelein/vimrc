@@ -51,3 +51,14 @@ Bundle 'https://github.com/Valloric/YouCompleteMe.git'
 
 filetype plugin indent on     " required!
 autocmd FileType python set omnifunc=pythoncomplete#Complete
+
+
+" Code Folding
+Plugin 'tmhedberg/SimpylFold'
+set foldmethod=indent
+set foldlevel=99
+nmap <space> za
+
+
+" Highlight
+let python_highlight_all=1
