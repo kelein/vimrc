@@ -62,3 +62,7 @@ nmap <space> za
 
 " Highlight
 let python_highlight_all=1
+
+
+" YankRing
+let g:yankring_history_dir = '/var/log/yank'
