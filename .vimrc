@@ -5,6 +5,7 @@ set guioptions-=T
 set guioptions-=m
 set smartindent
 colorscheme ron
+syntax on
 
 
 " Add Vundle Configure by Kallen, Jan 25 2016
