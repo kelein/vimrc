@@ -38,6 +38,10 @@ Bundle 'scrooloose/nerdcommenter'
 
 " NerdTree Plugin
 Bundle 'https://github.com/scrooloose/nerdtree.git'
+let g:NERDTreeDirArrows = 1 
+let g:NERDTreeGlyphReadOnly = "RO"
+let g:NERDTreeDirArrowExpandable = '▸' 
+let g:NERDTreeDirArrowCollapsible = '▾'
 " Key Bonding of NerdTree
 nmap <F5> :NERDTreeToggle<CR>
 
