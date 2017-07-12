@@ -35,6 +35,10 @@ Bundle 'YankRing.vim'
 Bundle 'Yggdroot/indentLine'
 Bundle 'scrooloose/nerdcommenter'
 
+" Golang Plugin
+Bundle 'dgryski/vim-godef'
+Bundle 'Blackrush/vim-gocode'
+
 
 " NerdTree Plugin
 Bundle 'https://github.com/scrooloose/nerdtree.git'
