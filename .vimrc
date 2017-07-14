@@ -75,3 +75,20 @@ let python_highlight_all=1
 
 " YankRing
 let g:yankring_history_dir = '/var/log/yank'
+
+
+" Customize Highlight
+highlight Comment     cterm=bold gui=bold
+highlight LineNr      cterm=bold gui=bold
+highlight NonText	  term=bold cterm=bold gui=bold guifg=yellow
+highlight Directory   term=bold cterm=bold ctermfg=6 guifg=Cyan
+highlight SpecilaKey  term=bold cterm=bold ctermfg=4 gui=bold guifg=Cyan
+highlight Statement   term=bold cterm=bold ctermfg=3 guifg=lightblue
+highlight Title       term=bold cterm=bold ctermfg=5 gui=bold guifg=darkgrey
+highlight Special     term=bold cterm=bold ctermfg=1 guifg=yellow
+highlight String	  term=underline cterm=bold ctermfg=5 gui=bold guifg=cyan
+highlight Constant	  term=underline cterm=bold ctermfg=5 gui=bold guifg=cyan
+highlight PreProc 	  term=underline cterm=bold ctermfg=4 guifg=Pink2
+highlight Type        term=underline cterm=bold ctermfg=2 gui=bold guifg=seagreen
+highlight WarningMsg  term=standout cterm=bold ctermfg=1 guifg=Black guibg=Green
+highlight Question    term=standout cterm=bold ctermfg=2 gui=bold guifg=Green
