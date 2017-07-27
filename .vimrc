@@ -35,9 +35,12 @@ Bundle 'YankRing.vim'
 Bundle 'Yggdroot/indentLine'
 Bundle 'scrooloose/nerdcommenter'
 
-" Golang Plugin
+
+" Golang Configure
 Bundle 'dgryski/vim-godef'
 Bundle 'Blackrush/vim-gocode'
+Plugin 'fatih/vim-go'
+au BufRead,BufNewFile *.go set filetype=go
 
 
 " NerdTree Plugin
