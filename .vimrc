@@ -36,7 +36,7 @@ Bundle 'Yggdroot/indentLine'
 Bundle 'scrooloose/nerdcommenter'
 
 
-" Golang Configure
+" Golang Plugin
 Bundle 'dgryski/vim-godef'
 Bundle 'Blackrush/vim-gocode'
 Plugin 'fatih/vim-go'
@@ -45,9 +45,9 @@ au BufRead,BufNewFile *.go set filetype=go
 
 " NerdTree Plugin
 Bundle 'https://github.com/scrooloose/nerdtree.git'
-let g:NERDTreeDirArrows = 1 
+let g:NERDTreeDirArrows = 1
 let g:NERDTreeGlyphReadOnly = "RO"
-let g:NERDTreeDirArrowExpandable = '▸' 
+let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 " Key Bonding of NerdTree
 nmap <F5> :NERDTreeToggle<CR>
@@ -78,6 +78,11 @@ let python_highlight_all=1
 
 " YankRing
 let g:yankring_history_dir = '/var/log/yank'
+
+
+" Backspace Config
+set nocompatible
+set backspace=indent,eol,start
 
 
 " Customize Highlight
@@ -124,4 +129,4 @@ let g:tagbar_type_go = {
     \ },
     \ 'ctagsbin'  : 'gotags',
     \ 'ctagsargs' : '-sort -silent'
-\
+\ }
