@@ -1,9 +1,12 @@
 set nu
 set is
 set tabstop=4
+set shiftwidth=4
 set guioptions-=T
 set guioptions-=m
 set smartindent
+set autoindent
+set expandtab
 colorscheme ron
 syntax on
 
