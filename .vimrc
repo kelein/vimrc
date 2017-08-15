@@ -81,6 +81,12 @@ let python_highlight_all=1
 let g:yankring_history_dir = '/var/log/yank'
 
 
+" indentLine Plugin
+" let g:indentLine_enabled = 0
+" let g:indentLine_setColors = 0
+" let g:indentLine_color_term = 144
+
+
 " Backspace Config
 set nocompatible
 set backspace=indent,eol,start
