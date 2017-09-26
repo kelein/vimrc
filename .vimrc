@@ -33,6 +33,7 @@ Bundle 'The-NERD-tree'
 Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-Commenter'
 Bundle 'Yggdroot/indentLine'
+Bundle 'Raimondi/delimitMate'
 Bundle 'drmingdrmer/xptemplate'
 Bundle 'scrooloose/nerdcommenter'
 
