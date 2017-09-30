@@ -16,9 +16,9 @@ vim
 
 ### Bundle List
 
-| Type	  | Name						| Desc			|
+| Type	  | Name						| Introduction	|
 |:--------|:----------------------------|:--------------|
-| Bundle  | `L9`						|				|
+| Bundle  | `L9`						| l9 is a Vim-script library, which provides some utility functions and commands for programming in Vim.				|
 | Bundle  | `Mark`						|				|
 | Bundle  | `jsbeautify`				|				|
 | Bundle  | `matrix.vim`				|				|
