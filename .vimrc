@@ -28,7 +28,7 @@ Bundle 'matchit.zip'
 Bundle 'taglist.vim'
 Bundle 'closetag.vim'
 Bundle 'YankRing.vim'
-Bundle 'AutoComplPop'
+"Bundle 'AutoComplPop'
 Bundle 'The-NERD-tree'
 Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-Commenter'
@@ -42,6 +42,7 @@ Bundle 'scrooloose/nerdcommenter'
 "Bundle 'dgryski/vim-godef'
 "Bundle 'Blackrush/vim-gocode'
 Plugin 'fatih/vim-go'
+let g:go_fmt_command = "gofmt"
 au BufRead,BufNewFile *.go set filetype=go
 
 
