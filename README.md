@@ -8,6 +8,7 @@
 ```
 git clone https://github.com/Keleir/vimrc.git
 cd vimrc
+git submodule init
 git submodule update
 cp -r .vimrc .vim $HOME
 vim 
