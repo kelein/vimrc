@@ -1,6 +1,9 @@
 set nu
 set is
+set noexpandtab
 set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set guioptions-=T
 set guioptions-=m
 set smartindent
@@ -28,7 +31,6 @@ Bundle 'matchit.zip'
 Bundle 'taglist.vim'
 Bundle 'closetag.vim'
 Bundle 'YankRing.vim'
-Bundle 'AutoComplPop'
 Bundle 'The-NERD-tree'
 Bundle 'bufexplorer.zip'
 Bundle 'The-NERD-Commenter'
