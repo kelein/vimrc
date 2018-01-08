@@ -42,7 +42,8 @@ Bundle 'scrooloose/nerdcommenter'
 "Bundle 'dgryski/vim-godef'
 "Bundle 'Blackrush/vim-gocode'
 Plugin 'fatih/vim-go'
-let g:go_fmt_command = "gofmt"
+"let g:go_fmt_command = "gofmt"
+let g:go_fmt_command = "goimports"
 au BufRead,BufNewFile *.go set filetype=go
 
 
