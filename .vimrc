@@ -1,6 +1,9 @@
 set nu
 set is
+set noexpandtab
 set tabstop=4
+set shiftwidth=4
+set softtabstop=4
 set guioptions-=T
 set guioptions-=m
 set smartindent
