@@ -47,6 +47,9 @@ Bundle 'scrooloose/nerdcommenter'
 Plugin 'fatih/vim-go'
 "let g:go_fmt_command = "gofmt"
 let g:go_fmt_command = "goimports"
+let g:go_highlight_fields = 1
+let g:go_highlight_functions = 1
+"let g:go_metalinter_autosave = 1
 au BufRead,BufNewFile *.go set filetype=go
 
 
