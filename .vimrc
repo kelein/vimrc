@@ -7,6 +7,7 @@ set softtabstop=4
 set guioptions-=T
 set guioptions-=m
 set smartindent
+set encoding=utf-8
 colorscheme ron
 syntax on
 
