@@ -11,10 +11,10 @@ set encoding=utf-8
 colorscheme ron
 syntax on
 
-
 " Vim Config for Myself Environment
 " Config once and use for anywhere.
-" Kallen, Jan 25 2015
+" Kallen Ding, Jan 25 2015
+
 " Add Vundle Configure
 filetype off
 set rtp+=$HOME/.vim/bundle/vundle
@@ -22,7 +22,8 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 filetype plugin indent on
 
-" original vim-scripts repos on github'
+
+" Original Repos on Github'
 Bundle 'L9'
 Bundle 'Mark'
 Bundle 'jsbeautify'
@@ -42,9 +43,11 @@ Bundle 'drmingdrmer/xptemplate'
 Bundle 'scrooloose/nerdcommenter'
 
 
+" Python Isort Plugin
+Plugin 'fisadev/vim-isort'
+
+
 " Golang Plugin
-"Bundle 'dgryski/vim-godef'
-"Bundle 'Blackrush/vim-gocode'
 Plugin 'fatih/vim-go'
 "let g:go_fmt_command = "gofmt"
 let g:go_fmt_command = "goimports"
